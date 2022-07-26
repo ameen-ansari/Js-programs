@@ -61,3 +61,43 @@
 //     console.log('not a leap year');
 // }
 
+// 7. Write a js program to check whether a character is alphabet or not.
+// function chart(digit) {
+//   if (typeof 1 === typeof digit) {
+//     console.log('number')
+//   } else if (typeof 'a' === typeof digit) {
+//     console.log('string')
+//   }
+// }
+// chart('j')
+
+// 8. Write a js program to input any alphabet and check whether it is vowel or consonant.
+// var a = 'a'
+// if ((a.match(/[aeiou]/gi))) {
+//   console.log('vowels')
+// }
+// else if(a.match(/[^aeiou]/gi)){
+//     console.log('cons');
+// }
+
+// 9. Write a js program to input any character and check whether it is alphabet, digit or special character.
+// var a = 'a'
+// if ((a.match(/[0-9a-zA-Z]/gi))) {
+//   console.log('vowels & cons')
+// }
+// else{
+//     console.log('special');
+// }
+
+// 10. Write a js program to check whether a character is uppercase or lowercase alphabet.
+// var a = 'A'
+// if(a == a.toUpperCase()){
+//     console.log('upper');
+// }
+// else if(a == a.toLowerCase())
+// {
+//     console.log('lower');
+// }
+
+// 11. Write a js program to input week number and print week day
+var dt = new Date()
