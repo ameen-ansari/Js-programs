@@ -1,0 +1,54 @@
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media( max-width : 500px) {
+    #container {
+        width: 100vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .subcontainer {
+        display: flex;
+        gap: 1rem;
+    }
+    body{
+        overflow: hidden;
+    }
+    
+}
+body{
+    overflow: hidden;
+}
+#containerforr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    flex-direction: column;
+    gap: 2rem;
+}
+#containerforp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    flex-direction: column;
+}
+.subcontainer {
+    display: flex;
+    gap: 1rem;
+}
+.subcontainerforp  {
+    display: flex;
+}
+.subcontainer input{
+    width:50vw;
+    gap: 1rem;
+}

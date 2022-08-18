@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="containerforr">
+            <div class="subcontainer">
+                <label for="range1"><b>Range1:</b></label>
+                <input id="range1" type="range" maxlength="100" onclick="rangeone()" value="25" minlength="1">
+            </div>
+            <div class="subcontainer">
+                <label for="range2"><b>Range2:</b></label>
+                <input id="range2" type="range" maxlength="100" onclick="rangetwo()" value="50" minlength="1">
+            </div>
+            <div class="subcontainer">
+                <label for="range3"><b>Range3:</b></label>
+                <input id="range3" type="range" maxlength="100" onclick="rangethree()" value="25" minlength="1">
+            </div>
+        </div>
+        <div id="containerforp">
+            <div class="subcontainerforp">
+                <p>Range1 value = <span id="p1"></span> </p>
+            </div>
+            <div class="subcontainerforp">
+                <p>Range2 value = <span id="p2"></span> </p>
+            </div>
+            <div class="subcontainerforp">
+                <p>Range3 value = <span id="p3"></span> </p>
+            </div>
+            <div class="subcontainerforp">
+                <p id="p4"></p>
+            </div>
+        </div>
+    </div>
+    <p style="text-align: center;">By Ameen Ansari</p>
+    <script src="./script.js"></script>
+</body>
+
+</html>
