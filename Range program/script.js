@@ -5,7 +5,6 @@ var p4 = document.getElementById('p4')
 var range1 = document.getElementById('range1')
 var range2 = document.getElementById('range2')
 var range3 = document.getElementById('range3')
-var r = document.getElementsByClassName('subcontainer')
 var hundred
 var a
 var b
@@ -23,27 +22,27 @@ var valueChanger = () => {
   }`
 }
 valueChanger()
-r[0].addEventListener('click', () => {
+var rangeone = () => {
   hundred = Number.parseFloat((100 - range1.value) / 2)
   a = Math.floor(hundred)
   b = Math.ceil(hundred)
   range2.value = a
   range3.value = b
   valueChanger()
-})
-r[1].addEventListener('click', () => {
+}
+var rangetwo = () => {
   hundred = Number.parseFloat((100 - range2.value) / 2)
   a = Math.floor(hundred)
   b = Math.ceil(hundred)
   range1.value = a
   range3.value = b
   valueChanger()
-})
-r[2].addEventListener('click', () => {
+}
+var rangethree = () => {
   hundred = Number.parseFloat((100 - range3.value) / 2)
   a = Math.floor(hundred)
   b = Math.ceil(hundred)
   range1.value = a
   range2.value = b
   valueChanger()
-})
+}
